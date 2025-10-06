@@ -1,0 +1,90 @@
+
+/* Embeded code given by Google Fonts when implementing outside fonts. */
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+ html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#loginContainer {
+    display: flex;
+    height: 100vh; /* full viewport height */
+}
+
+#loginInfo {
+    flex: 1;
+    background: linear-gradient(to bottom right, #4caaf6 0%, #348fdd 50%, #1b73c4 100%);
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#loginInfo h1 {
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+}
+
+#loginForm {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+form {
+    width: 80%;
+    max-width: 400px;
+}
+
+.form-field {
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border-radius: 0.15rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#formActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #1b73c4;
+    color: white;
+    border: none;
+    border-radius: 0.15rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1661a2;
+}
+
+password-recovery a {
+    font-size: 0.9rem;
+    color: #1b73c4;
+    text-decoration: none;
+}
+
+password-recovery a:hover {
+    text-decoration: underline;
+}
