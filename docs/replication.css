@@ -6,16 +6,19 @@
   font-style: normal;
 }
 
-
- html, body {
+html, body {
     height: 100%;
     margin: 0;
     font-family: 'Varela Round', sans-serif;
+    min-width: 500px;   
+    min-height: 300px;  
 }
 
 #loginContainer {
     display: flex;
     height: 100vh; /* full viewport height */
+    min-width: 500px;
+    min-height: 300px;
 }
 
 #loginInfo {
